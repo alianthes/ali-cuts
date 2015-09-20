@@ -10,3 +10,9 @@ ac.costView = function(views) {
 	var cost = ((views/1000) * 0.50);
 	return cost;
 };
+
+ac.costPermGeo = function(geocodes) {
+	var cost = ((geocodes/1000) * 2.5);
+	return cost;
+};
+
