@@ -16,3 +16,10 @@ ac.costPermGeo = function(geocodes) {
 	return cost;
 };
 
+if (functionType === "costView") {
+	var result = ac.costView(number);
+	console.log(result);
+} else if (functionType === "costPermGeo") { 
+	var result = ac.PermGeo(number);
+	console.log(result);
+}
