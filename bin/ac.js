@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var arguments = require("minimist")(process.argv.slice(2));
 
 
@@ -20,6 +22,6 @@ if (functionType === "costView") {
 	var result = ac.costView(number);
 	console.log(result);
 } else if (functionType === "costPermGeo") { 
-	var result = ac.PermGeo(number);
+	var result = ac.costPermGeo(number);
 	console.log(result);
 }
